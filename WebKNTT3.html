@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+<title>ReFood</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+
+<body class="w3-light-grey w3-content" style="max-width:1600px">
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="Logo.png" style="width:90%;" class="w3-round"/>
+    <p class="w3-text-grey"><b>(❁´◡`❁) Danh Mục ---------------------</b></p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#portfolio" onclick="w3_close()" class="w3-bar-item w3-button w3-padding w3-text-teal"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ReFood</a> 
+    <a href="http://kenh14.vn/mon-an-ngon.html" onclick="" class="w3-bar-item w3-button w3-padding"><i class=" fa fa-file-text fa fa-file-text-o fa-fw w3-margin-right"></i>Tin Tức</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-envelope fa-fw w3-margin-right"></i>Liên Hệ</a>
+
+
+
+  </div>
+  <div class="w3-panel w3-large">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    <div class="w3-container">
+    <h1><b><center><font color=#0033CC>Chào Mừng Bạn Đến Với Website ReFood 😄</font></center></b></h1>
+    <div class="w3-section w3-bottombar w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">Tất Cả</button>
+      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i><a href="Profile.html" >Thiết Kế</a></button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i><a href="Anh.html" >Ảnh</a></button>
+    <button class="w3-button w3-white"><i class="fa fa-share-square-o w3-margin-right"></i> <a href="index.html">Đăng Xuất</a></button>
+    </div>
+    </div>
+  </header>
+  
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://images.foody.vn/res/g88/879702/prof/s640x400/foody-upload-api-foody-mobile-ngocthachquan-190111110733.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Ngọc Thạch Quán - Sữa Chua & Caramen - Quận 12</b></p>
+        <p>Lô 44, 15 Nguyễn Thị Đặng,P.Hiệp Thành,Quận 12, TP.Hồ Chí Minh</p>
+		<p>Thời gian mở cửa: 09:00 - 22:00</p>
+		<p>10.000đ - 30.000đ</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Vị sữa chua thơm và béo.
+		</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Bánh plăng rất ngon.
+		</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://images.foody.vn/res/g14/132594/prof/s640x400/foody-mobile-oc-jpg-237-635654694141084829.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Ốc Trung Tín - Quang Trung</b></p>
+        <p>A70 Quang Trung, P.Đông Hưng Thuận, Q.12, TP.Hồ Chí Minh</p>
+		<p>Thời gian mở cửa: 18:00 - 03:00</p>
+		<p>30.000đ - 100.000đ</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Ốc ở đây chế biến khá sạch.
+		</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Món nghêu ở đây là ngon nhất.
+		</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://images.foody.vn/res/g24/233156/prof/s640x400/foody-mobile-img_1566-jpg-468-635981459430849890.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Bò Bít Tết Việt - Tô Kí</b></p>
+        <p>A50 Tô Kí, P.Đông Hưng Thuận, Q.12, TP.Hồ Chí Minh</p>
+		<p>Thời gian mở cửa: 15:00 - 23:30</p>
+		<p>20.000đ - 55.000đ</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Thịt bò tươi, ăn khá ngon.
+		</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Quá ngón, quán nên mở sớm hơn.
+		</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://images.foody.vn/res/g26/255722/prof/s640x400/foody-mobile-t1-jpg-780-636040173973638096.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Bánh tráng - Đặc Sản Tây Ninh Online</b></p>
+        <p>64A Trung Mỹ Tây 12, P.Trung Mỹ Tây, Q.12, TP.Hồ Chí Minh</p>
+		<p>Thời gian mở cửa: 09:00 - 00:00</p>
+		<p>7.000đ - 45.000đ</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Bánh tráng khá dẻo.
+		</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Bánh tráng me ở bán khá ngon.
+		</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="https://images.foody.vn/res/g78/778260/prof/s640x400/foody-upload-api-foody-mobile-1-gif-180920120416.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Bà Hai Nẫu - Xôi Chiên</b></p>
+        <p>288 Tô Ký, Q.12, TP.Hồ Chí Minh</p>
+		<p>Thời gian mở cửa: 15:00 - 21:00</p>
+		<p>5.000đ - 6.000đ</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Xôi chiên khá giòn.
+		</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Bên trong nếp dẻo rất ok.
+		</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Giá rẻ ăn được.
+		</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="https://images.foody.vn/res/g78/770181/prof/s640x400/foody-upload-api-foody-mobile-foody-sakura-no-tako-180822154810.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Coro Coro - Takoyaki & Bánh Chuối Sô-Cô-La Kiểu Nhật</b></p>
+        <p>Tòa nhà Genpacific, Tô Kí,P.Tân Chánh Hiệp, Q.12, TP.Hồ Chí Minh</p>
+		<p>Thời gian mở cửa: 09:00 - 21:00</p>
+		<p>25.000đ - 35.000đ</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Bán đúng kiểu Nhật.
+		</p>
+		<p>
+			<img src="chat.png" width="35px" height="35px" class="icon1">  Bánh chuối tuyệt vời.
+		</p>
+      </div>
+    </div>
+  </div>
+
+   <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="WebKNTT1.html" class="w3-bar-item w3-button w3-hover-black">1</a>
+      <a href="WebKNTT2.html" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="WebKNTT3.html" class="w3-bar-item w3-black w3-button">3</a>
+      <a href="WebKNTT4.html" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  
+  
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-large w3-grey">
+    <h4 id="contact"><b>Thông Tin Liên Hệ</b></h4>
+    <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+        <p>nguyenluan210899@gmai.com</p>
+      </div>
+      <div class="w3-third w3-teal">
+        <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+        <p>TP.Hồ Chí Minh, VN</p>
+      </div>
+      <div class="w3-third w3-dark-grey">
+        <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+        <p>0909774474</p>
+      </div>
+    </div>
+    <hr class="w3-opacity">
+    <form action="/action_page.php" target="_blank">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border" type="text" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-black w3-margin-bottom"><i class="fa fa-paper-plane w3-margin-right"></i>Send Message</button>
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-dark-grey">
+  <div class="w3-row-padding">
+    <div class="w3-third">
+      <h3><b><font color="red">REFOOD LÀ GÌ</font></b></h3>
+      <div style="text-align: justify;">Được xây dựng năm 2019 tại TP.HCM, VN. ReFood là một website cho phép mọi người tìm kiếm, đánh giá, bình luận, các địa điểm món ăn đường phố các quận ở tại Sài Gòn. Đặc biệt nhất là ở tại Quận 12.</div>
+    </div>
+
+<div class="w3-third">
+      
+      <h3><b><font color="red">BÀI VIẾT TRÊN BLOGS</font></b></h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="blog1.jpg" class="w3-left w3-margin-right" style="width:80px">
+          <a href="https://toptotnhat.vn/top-10-dat-nuoc-co-nen-am-thuc-cuon-hut-nhat-the-gioi-2">
+          <i><span class="w3-large">Top 10 đất nước có nền ẩm thực cuốn hút nhất thế giới</span><br></a></i>
+          <span>Nguồn: toptotnhat.vn</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="blog2.jpg" class="w3-left w3-margin-right" style="width:80px">
+          <a href="https://www.hoidaubepaau.com/mon-an-duong-pho-chau-a/">
+          <i><span class="w3-large">Món Ăn Đường Phố Ở Đất Nước Châu Á </span><br></a></i>
+          <span>Nguồn: hoidaubepaau.com</span>
+      </ul>
+
+    </div>
+
+    <div class="w3-third">
+      <h3><b><font color="red">THẺ TAGS</font></b></h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">Food</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">TheGioi</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">ChauA</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">ChauAu</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">VietNam</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Quan12</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">DanhGia</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">DatHang</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">GiamGia</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">Blogs</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">MonAnVat</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">MuaSam</span>
+        <span class="w3-tag w3-grey w3-small w3-margin-bottom">DanhGia</span> <span class="w3-tag w3-grey w3-small w3-margin-bottom">Ngon-Bo-Re</span>
+      </p>
+    </div>
+
+  </div>
+
+ <!--  <footer class="w3-container w3-padding-32 w3-dark-grey">
+   <center>
+    <p>Vui lòng liên hệ với chúng tôi qua các thông tin sau :</p>
+    <p>Địa chỉ: Trung tâm phần mềm Quang Trung, Quận 12, TP.Hồ Chí Minh</p>
+    <p>Số Điện Thoại: 0909774474</p>
+    <p>Email: nguyenluan210899@gmail.com</p>
+   </center>
+  </footer> -->
+  
+  <div class="w3-black w3-center w3-padding-24">Thiết Kế Bởi <a href="https://www.facebook.com/nguyen.the.luan1999?ref=bookmarks" title="Liên Kết Facebook" target="_blank" class="w3-hover-opacity"><b>Nguyễn Luân</b></a></div>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+</body>
+</html>
