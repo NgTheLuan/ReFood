@@ -1,7 +1,0 @@
-Img:        directory
-index.html: HTML document, UTF-8 Unicode text, with CRLF line terminators
-README.md:  ASCII text
-Resources:  directory
-branch:     cannot open `branch' (No such file or directory)
-master:     cannot open `master' (No such file or directory)
-/dev/stdin:          ASCII text
